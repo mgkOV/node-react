@@ -1,0 +1,16 @@
+{
+  "name": "nodeWithReact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engins": {
+    "node": "8.2.1",
+    "npm": "5.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
