@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payments renders correctly 1`] = `
+<ReactStripeCheckout
+  ComponentClass="span"
+  amount={500}
+  className="StripeCheckout"
+  description="$5 for 5 email credits"
+  label="Pay With Card"
+  locale="auto"
+  name="Emailiy"
+  reconfigureOnUpdate={false}
+  stripeKey="pk_test_SRZSjVPE8XfncILGQAhDTmnV"
+  token={[Function]}
+  triggerEvent="onClick"
+>
+  <button
+    className="btn"
+  >
+    Add credits
+  </button>
+</ReactStripeCheckout>
+`;
