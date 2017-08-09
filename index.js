@@ -20,7 +20,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-// REGISTER ROUTES
+// REGISTER AUTH ROUTES
 require('./routes/authRoutes')(app);
 
 const PORT = process.env.PORT || 5000;
