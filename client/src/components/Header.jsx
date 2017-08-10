@@ -22,6 +22,9 @@ class Header extends Component {
           <li key={uuid()}>
             <Payments />
           </li>,
+          <li key={uuid()} style={{ margin: '0 10px' }}>
+            Credits: {this.props.auth.credits}
+          </li>,
           <li key={uuid()}>
             <a href="/api/logout">Logout</a>
           </li>
