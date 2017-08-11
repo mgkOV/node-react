@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing tests Landing renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  <h1>
+    Emaily
+  </h1>
+  <div>
+    Collect feedback form your users
+  </div>
+</div>
+`;

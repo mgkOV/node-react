@@ -32,4 +32,5 @@ class App extends Component {
   }
 }
 
+export const Unwrapped = App;
 export default connect(null, { fetchUser })(App);

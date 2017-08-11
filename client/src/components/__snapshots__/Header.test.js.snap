@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header tests Header renders correctly 1`] = `
+<nav>
+  <div
+    className="nav-wrapper"
+  >
+    <Link
+      className="brand-logo"
+      href="#"
+      replace={false}
+      to="/surveys"
+    >
+      Logo
+    </Link>
+    <ul
+      className="right"
+    >
+      <li>
+        <Connect(Payments) />
+      </li>
+      <li
+        style={
+          Object {
+            "margin": "0 10px",
+          }
+        }
+      >
+        Credits: 
+      </li>
+      <li>
+        <a
+          href="/api/logout"
+        >
+          Logout
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

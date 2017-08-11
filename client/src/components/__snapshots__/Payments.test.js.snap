@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Payments renders correctly 1`] = `
+exports[`Payments component tests Payments renders correctly 1`] = `
 <ReactStripeCheckout
   ComponentClass="span"
   amount={500}

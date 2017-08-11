@@ -19,4 +19,5 @@ class Payments extends Component {
   }
 }
 
+export const Unwrapped = Payments;
 export default connect(null, { handleToken })(Payments);

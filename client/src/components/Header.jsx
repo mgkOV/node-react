@@ -56,4 +56,5 @@ const mapStateToProps = ({ auth }) => ({
   auth
 });
 
+export const Unwrapped = Header;
 export default connect(mapStateToProps)(Header);
